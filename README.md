@@ -1,13 +1,13 @@
 # FirestoreRecyclerAdapterSample
 Sample Android project using `FirestoreRecyclerAdapter`. This project is using Firebase Cloud Firestore as a databases.
 
-#Using `FirestoreRecyclerAdapter` to populate `RecyclerView`
+# Using `FirestoreRecyclerAdapter` to populate `RecyclerView`
 Before you create the create the project in Android Studio, you should:
 1. Create a Firebase Project [here][firestore-console].
 2. Go to Database menu and choose Cloud Firestore.
 3. Add Collection named `"friends"`.
 4. In the `"firends"` collection, add some documents with some field `(name, image, title, company)` in the each documents.
-For more information, go to the [Firebase Docs][firestore-docs].
+Also you should integrate the Firebase project with the project that will you create in Android Studio. For more information, go to the [Firebase Docs][firestore-docs].
 
 ## Dependencies
 Some dependencies thats should be implemented in your project:
