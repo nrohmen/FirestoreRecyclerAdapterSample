@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "479814924563",
+    "firebase_url": "https://firestorerecycleradaptersample.firebaseio.com",
+    "project_id": "firestorerecycleradaptersample",
+    "storage_bucket": "firestorerecycleradaptersample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479814924563:android:be2064136b713404",
+        "android_client_info": {
+          "package_name": "com.guidoapps.firestorerecycleradaptersample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479814924563-hn0tc9vu6a4bpr5osq4tlm6do53v5qn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.guidoapps.firestorerecycleradaptersample",
+            "certificate_hash": "6a8dfc840337c94f223c30f8fa5ff09cb5c1bb7a"
+          }
+        },
+        {
+          "client_id": "479814924563-j73gru0rlbonbsdob24huh5qo6ljug7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUPKo1giUnhkEp2Zb_GBD6RC4FBIJxLGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479814924563-j73gru0rlbonbsdob24huh5qo6ljug7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
