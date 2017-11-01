@@ -9,19 +9,19 @@ Before you create the create the project in Android Studio, you should:
 4. In the `"firends"` collection, add some documents with some field `(name, image, title, company)` in the each documents.
 For more information, go to the [Firebase Docs][firestore-docs].
 
-##Dependencies
+## Dependencies
 Some dependencies thats should be implemented in your project:
 ```gradle
 implementation "com.google.firebase:firebase-firestore:11.4.2"
 implementation "com.firebaseui:firebase-ui-auth:3.0.0"
 implementation "com.firebaseui:firebase-ui-firestore:3.0.0"
 ```
-##Query
+## Query
 To retrive all documents in the collection use:
 ```java
 Query query = db.collection("friends");
 ```
-##Using FirestoreRecyclerAdapter
+## Using FirestoreRecyclerAdapter
 Configure the adapter by building `FirestoreRecyclerOptions`:
 ```java
  FirestoreRecyclerOptions<FriendsResponse> response = new FirestoreRecyclerOptions.Builder<FriendsResponse>()
